@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebadeform</title>
+</head>
+<body>
+    <!--Resumen-->
+    <!--input que pueden ser de diferentes tipos y/o estar enlazados con labels a traves de un id, los label con atributo for
+    son para enlazar el texto con el input, for lleva el valor de id  -->
+<form action="/process" method="post">
+    <div>
+        <label for="pname">Primer Nombre</label>
+        <input type="text" name="Pnombre" id="pname" placeholder="Ingrese su primer nombre">
+    </div>
+    <div>
+        <label for="edade">Edad</label>
+        <input type="number" name="Edad" id="edade">
+    </div>
+    <div>
+        <label for="nacimiento">Cuando nacistsse</label>
+        <input type="date" name="adn" id="nacimiento">
+    </div>
+    <input type="color" name="colordetexto">
+    <div>
+        <input type="radio" name="Fuente" value="normal" id="normalito">
+        <label for="normalito">Normal</label>
+        <input type="radio" name="Fuente" value="negrita" id="strong">
+        <label for="strong"><strong>Negrita</strong></label>
+    </div>
+    <div>
+        <input type="checkbox" name="aceptar" id="accept">
+        <label for="accept">Esta de acuerdo con este circo</label>
+    </div>
+    <div>
+        <textarea name="comentario" id="comentarios" cols="30" rows="10" placeholder="de un comentario"></textarea>
+    </div>
+    <select name="snack" id="snackers">
+        <option value="5">Muy de acuerdo</option>   
+        <option value="4">Satisfecho</option>
+    </select>
+    <div>
+        <input type="submit" value="Enviar Formulario">
+    </div>
+</form>  
+</body>
+</html>
+<!--para ingresar lineas de codigo en unas etiquetas, seleccionar el codigo y alt+ flecha arriba o abajo-->
