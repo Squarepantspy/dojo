@@ -1,9 +1,0 @@
-h1{  /*selectores de elemento*/
-    color: brown;               /*algunas propiedades https://www.w3schools.com/CSSref/pr_border-top.php*/
-    border-top: 5px solid red;
-}
-/*valores por defecto de elementos html https://www.w3schools.com/csSref/css_default_values.php*/
-/* para resetear valores https://meyerweb.com/eric/tools/css/reset/ compartio una companhera */
-/* https://www.w3schools.com/csSref/css_units.php unidades y tamanho de css*/
-
-/* ver opcional https://www.w3schools.com/css/css_pseudo_classes.asp */
