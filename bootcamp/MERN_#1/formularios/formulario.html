@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareaformulario</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="/action" method="post">
+        <div>
+            <label for="pnombre">Primer Nombre : *</label>
+            <input type="text" name="Nombre" id="pnombre">
+        </div>
+        <div>
+            <label for="apellido">Apellido : *</label>
+            <input type="text" name="Nombre" id="apellido">
+        </div>
+        <div>
+            <label for="correoe">Correo Electronico: *</label>
+            <input type="email" name="Correo" id="correoe">
+        </div>
+        <div>
+            <label for="pass">Contraseña: *</label>
+            <input type="password" name="Contra" id="pass">
+        </div>
+        <div>
+            <label for="passdos">Confirmar Contraseña: *</label>
+            <input type="password" name="Contra" id="passdos">
+        </div>
+        <div>
+            <label for="nacimiento">Nacimiento: *</label>
+            <input type="date" name="diadenacimiento" id="nacimiento">
+        </div>
+        <div>
+            <p>Identidad de genero:</p>
+            <input type="radio" name="gender" id="masc">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="gender" id="fem">
+            <label for="fem">Femenino</label>
+            <input type="radio" name="gender" id="nobin">
+            <label for="nobin">No binario</label>
+            <input type="radio" name="gender" id="notsay">
+            <label for="notsay">Prefiero no decirlo</label>
+        </div>
+        <div>
+            <p><label for="aboutme">Una breve descripcion acerca de mi:</label></p>
+        </div>
+        <div>  
+            <textarea name="descripcion" id="aboutme" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="snackfav">Lenguaje favorito:</label>
+            <select name="lenguaje" id="snackfav">
+                <option value="js">Javascript</option>
+                <option value="py">Python</option>
+                <option value="cpp">C++</option>
+                <option value="c#">C#</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="Deacuerdo" id="updates">
+            <label for="updates">Si, me gustaria recibir actualizaciones</label>
+        </div>
+        <div>
+            <input type="submit" value="Crear cuenta">
+        </div>
+        <p>* Indica un campo obligatorio</p>
+    </form>
+    
+</body>
+</html>
