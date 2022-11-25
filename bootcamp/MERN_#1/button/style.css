@@ -1,0 +1,36 @@
+.container{
+    margin: 50px;
+}
+.botones{
+    padding: 8px;
+}
+#search{
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    border: 2px solid turquoise;
+    background-color: whitesmoke;
+    color: turquoise;
+    font-size:medium;
+}
+#plus{
+    background-color: turquoise;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: solid turquoise;
+    color: white;
+    font-size:x-large;
+}
+#createacc{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: dodgerblue;
+    text-align: center;
+    width: 165px;
+    height: 35px;
+    font-size: medium;
+    box-shadow: 3px 3px black; /*propiedad opcional interesante x-offset |y-offset | pxsombreado color */
+}

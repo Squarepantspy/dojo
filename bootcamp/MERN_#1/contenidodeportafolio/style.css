@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    border-style: hidden;
+}
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+}
+.logos{
+    width: 32px;
+}
+#snake{
+    width: 100px;
+}
+#msg{
+    vertical-align: text-top;
+}
+div{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
