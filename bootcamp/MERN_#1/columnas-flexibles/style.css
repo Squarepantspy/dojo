@@ -1,0 +1,17 @@
+.row{
+    display: flex; /*no especificamos ancho de manera a que se adapte la propiedad flex a la pantalla*/
+    background-color: aliceblue;
+}
+.col, .col-2, .col-3{
+    height: 40px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #659da1;
+    flex: 1;
+}
+.col-2{
+    flex: 2; /*se sobreescribe flex para col-2*/
+}
+.col-3{
+    flex: 3; /*se sobreescribe flex para col-3*/
+}
