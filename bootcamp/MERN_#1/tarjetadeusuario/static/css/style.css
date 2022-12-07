@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'DearSans';
+    src: url('/static/css/DearSans-Book.ttf') format('truetype');
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container-flex{
+    margin: 50px auto;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "DearSans";
+    font-weight: bolder;
+}
+.perfil{
+    width: 100%;
+}
+.row{
+    border-top-right-radius: 2px;
+    border-start-start-radius: 2px;
+    height: 60px;
+    background-color: #17a2b8;
+}
+.data{
+    border: 3px solid #cfcfcf;
+    border-bottom-left-radius: 2px;
+    border-end-end-radius: 2px;
+    border-top: 0px;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.data p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#usuario{
+    width: 60px;
+    /*position: absolute;
+    top: 70px;
+    left: 120px;*/
+    background-color: white;
+    border-radius: 50%;
+    border:3px solid #cfcfcf;
+    margin:25px 0px 0px 20px ;
+    padding: 1px;
+}
+.icon-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.icon-text img{
+    height: 15px; 
+    margin-right: 10px;
+    position: relative; /* evitar utilizar esto mucho*/
+    top:2px
+}
